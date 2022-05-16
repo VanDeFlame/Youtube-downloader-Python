@@ -14,9 +14,10 @@ def accion():
     video = YouTube(enlace)
     descarga = video.streams.get_highest_resolution()
     descarga.download()
+
 root = Tk()
 root.config(bd=15)
-root.title('bajate tu video')
+root.title('KannaDownloader')
 
 
 videos = Entry(root)

@@ -19,14 +19,17 @@ root = Tk()
 root.config(bd=15)
 root.title('KannaDownloader')
 
+foto = PhotoImage(file='./dow.png')
+insertarFoto = Label(root, image=foto, bd = 0)
+insertarFoto.grid(row = 1 , column=1)
 
 videos = Entry(root)
-videos.grid(row = 1, column =2 )
+videos.grid(row = 2, column =2 )
 
 texto = Label(root, text ="Downloader KannaTeam")
-texto.grid(row = 1 ,column = 1)
+texto.grid(row = 2 ,column = 1)
 boton = Button(root , text = "Descargar （＾∀＾●）ﾉｼ",command=accion)
-boton.grid(row =2,column=1)
+boton.grid(row =3,column=1)
 
 root.mainloop()
 

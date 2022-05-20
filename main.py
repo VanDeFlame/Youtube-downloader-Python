@@ -5,8 +5,6 @@ Created on Mon May 16 12:46:06 2022
 @author: agush
 """
 from cProfile import label
-from logging import PlaceHolder
-from turtle import color
 from pytube import YouTube
 from tkinter import *
 from tkinter import messagebox
